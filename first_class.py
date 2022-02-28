@@ -1,5 +1,5 @@
 class Ice_Dragon:
-    def create_dragon(self, name, color, level=1):
+    def __init__(self, name, color, level=1):
         self.name = name
         self.color = color
         self.level = level
